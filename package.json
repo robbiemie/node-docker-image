@@ -1,0 +1,27 @@
+{
+  "name": "docker-image",
+  "version": "1.0.0",
+  "description": "Nodejs 打包 Docker 镜像",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiemie/node-docker-image.git"
+  },
+  "keywords": [
+    "docker",
+    "image"
+  ],
+  "author": "robbiemie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiemie/node-docker-image/issues"
+  },
+  "homepage": "https://github.com/robbiemie/node-docker-image#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
