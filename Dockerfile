@@ -9,6 +9,11 @@ RUN npm install
 
 COPY . .
 # 绑定端口号
-EXPOSE 8080
+# EXPOSE 8080
+# EXPOSE 8081
+# EXPOSE 8082
+# EXPOSE 8083
+# EXPOSE 8084
+# EXPOSE 8085
 # 启动服务
 CMD ["node", "server.js"]
